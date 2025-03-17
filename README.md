@@ -13,3 +13,9 @@ Buon lavoro!
 
 -chiedo all'utente numero km che vuole percorrere
 -chiedo all'utente l'età del passeggero
+
+-calcolo il prezzo totale del viaggio seguendo le regole preposte:
+(0.21 € al km)
+sconto del 20% per i minorenni
+sconto del 40% per gli over 65
+
