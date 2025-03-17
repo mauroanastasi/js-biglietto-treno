@@ -10,7 +10,7 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
 Numero di push minimo: 6
 Ricordatevi di spezzare il problema in sottoproblemi come visto a lezione nel file README.md
 Buon lavoro!
-
+---------------------------------------------------------------------------------------------------------
 -chiedo all'utente numero km che vuole percorrere
 -chiedo all'utente l'età del passeggero
 
