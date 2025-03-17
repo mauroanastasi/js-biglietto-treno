@@ -11,18 +11,18 @@ let finalPrice
 // calcolo lo sconto applicabile in base all'età
 if(age<18){
     finalPrice = kmPrice*0.8
-    console.log(`il prezzo è di ${finalPrice}`)
+    console.log(`il prezzo è di ${finalPrice.toFixed(2)}`)
 }
 else if(age>65){
     finalPrice = kmPrice*0.4
-    console.log(`il prezzo è di ${finalPrice}`)
+    console.log(`il prezzo è di ${finalPrice.toFixed(2)}`)
 }
 else{
     finalPrice = kmPrice
-    console.log(`il prezzo è di ${finalPrice}`)
+    console.log(`il prezzo è di ${finalPrice.toFixed(2)}`)
 }
 
 
-
+// infine aggiungo toFixed(2) per fermare il calcolo del prezzo alla seconda cifra decimale
 
 

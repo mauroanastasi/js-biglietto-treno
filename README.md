@@ -19,3 +19,4 @@ Buon lavoro!
 sconto del 20% per i minorenni
 sconto del 40% per gli over 65
 
+-arrotondo a seconda cifra decimale
