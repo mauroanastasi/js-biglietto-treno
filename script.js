@@ -11,18 +11,20 @@ let finalPrice
 // calcolo lo sconto applicabile in base all'età
 if(age<18){
     finalPrice = kmPrice*0.8
-    console.log(`il prezzo è di ${finalPrice.toFixed(2)}`)
+    console.log(`il prezzo è di ${finalPrice}`)
 }
 else if(age>65){
-    finalPrice = kmPrice*0.4
-    console.log(`il prezzo è di ${finalPrice.toFixed(2)}`)
+    finalPrice = kmPrice*0.6
+    console.log(`il prezzo è di ${finalPrice}`)
 }
 else{
     finalPrice = kmPrice
-    console.log(`il prezzo è di ${finalPrice.toFixed(2)}`)
+    console.log(`il prezzo è di ${finalPrice}`)
 }
 
-
+console.log(finalPrice.toFixed(2))
 // infine aggiungo toFixed(2) per fermare il calcolo del prezzo alla seconda cifra decimale
+
+// EDIT:miglioro il codice scrivendo toFixed una solo volta alla fine e non in ogni console.log all'interno del blocco come avevo fatto precedentemente
 
 
